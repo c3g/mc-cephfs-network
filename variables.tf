@@ -10,6 +10,6 @@ variable "pool" {
 }
 
 variable "instances" {
-  type = object
+  type        = map
   description = "Map of instances as output by Magic Castle OpenStack module"
 }
